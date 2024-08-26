@@ -1,0 +1,13 @@
+<nav class="navbar">
+    <ul>
+        <li><a routerLink="/home" (click)="goToHome()" class="title">{{ 'TITLE' | translate }}</a></li>
+        <li><a routerLink="/add-contact" (click)="navigateToAddPerson()" class="add">{{ 'ADD_CONTACT' | translate }}</a>
+        </li>
+        <div class="button">
+            <ul>
+                <li><button class="tr_button" (click)="changeLanguage('tr')"></button></li>
+                <li><button class="en_button" (click)="changeLanguage('en')"></button></li>
+            </ul>
+        </div>
+    </ul>
+</nav>

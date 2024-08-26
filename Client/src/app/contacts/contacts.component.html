@@ -1,0 +1,68 @@
+<div class="info" *ngIf="selectedContact">
+
+  <div class="photo">
+    <div class="favourite" >
+      <img 
+      [src]="selectedContact.favourite ? '../assets/fav.png' : '../assets/unfav.png'" 
+      alt="Favourite" 
+      class="favourite-image"
+    />
+  </div>
+    <img [src]="selectedContact.profileImage ? selectedContact.profileImage : '../../assets/defghi.png'" class="contact-photo" *ngIf="selectedContact">
+  </div>
+  
+
+  <div class="info-person">
+    <p>{{selectedContact.name}} {{selectedContact.surname}}</p>
+    <div class="company">
+      {{selectedContact.companyName}}
+    </div>
+  </div>
+
+  <div class="details">
+
+    <div class="left">
+
+      <div class="phone">
+        <img type="images" src="../assets/phone.png" alt="resim" class="details-img">
+        <div class="l-p">
+          {{ 'PHONE_NUMBER' | translate }} <br>
+          {{selectedContact.phoneNumber}}
+        </div>
+      </div>
+  
+      <div class="email">
+        <img type="images" src="../assets/email.png" alt="resim" class="details-img">
+        <div class="l-p2">
+          {{ 'EMAIL' | translate }} <br>
+          {{selectedContact.email}}
+        </div>
+      </div>
+
+    </div>
+
+    <div class="right">
+
+      <div class="company-num">
+        <img type="images" src="../assets/office-building.png" alt="resim" class="details-img">
+        <div class="r-p">
+          {{ 'COMPANY_PHONE_NUMBER' | translate }} <br>
+          {{selectedContact.companyPhoneNumber}}
+        </div>
+      </div>
+
+      <div class="b-day">
+        <img type="images" src="../assets/birthday.png" alt="resim" class="details-img">
+        <div class="r-p2">
+          {{ 'BIRTHDAY' | translate }} <br>
+          {{selectedContact.birthday | date:'dd.MM.yyyy' }}
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <button class="delete-button" (click)="onDelete(selectedContact.id)"></button>
+  <button class="edit-button" (click)="onUpdate()"></button>
+</div>

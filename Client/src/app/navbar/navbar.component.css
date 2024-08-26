@@ -1,0 +1,88 @@
+.navbar {
+    height: 100vh;
+    width: 50vh;
+    background-color: #f3e7ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: width 0.3s ease;
+    text-decoration: none;
+    overflow-y: auto;
+  }
+  
+  .navbar ul {
+
+    list-style-type: none;
+    padding-left: 14px;
+    color: #7925cc;
+    display: flex; 
+    flex-direction: column;
+    align-items: start;
+  }
+  
+  .navbar li {
+    display: block;
+
+  }
+
+  .search-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 17%;
+    padding-left: 0vh;
+  }
+  
+  .searchbox {
+    width: 80%;
+    padding: 1vh;
+    border: 2px solid #b885eb;
+    border-radius: 15px;
+    background-color: #f3e7ff;
+    color: #7925cc ;
+    outline: none;
+  }
+
+  .company-info {
+    text-decoration: none;
+    font-size: 10px;
+    margin-bottom: 5px;
+    padding: 2px;
+  }
+
+  .contact-photo {
+    width: 56px; 
+    height: 56px; 
+    border-radius: 50%; 
+    margin-right: 10px; 
+  }
+
+  .profile {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
+
+  .person {
+    margin-left: 3vh;
+    margin-top: 3vh;
+    pointer-events: auto;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+  }
+  .profile-info {
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .no-underline {
+    text-decoration: none;
+    color:#7925cc;
+  }
+
+  .no-underline:active {
+    color:#b885eb;
+  }

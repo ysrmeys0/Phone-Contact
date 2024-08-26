@@ -1,0 +1,20 @@
+<nav class="navbar">
+    <div class="search-container">
+        <input type="text" [placeholder]="'SEARCH' | translate" class="searchbox" (input)="searchContacts($any($event.target).value)" />
+    </div>
+    <div *ngFor="let contact of filteredContacts" (click)="selectContact(contact)" class="person">
+        <a [routerLink]="['/contacts', contact.id]" class="no-underline">
+            <div class="profile">
+                <div class="photo">
+                    <img [src]="contact.profileImage ? contact.profileImage : '../../assets/defghi.png'" class="contact-photo" *ngIf="contact">
+                  </div>
+                <div class="profile-info">
+                    {{contact.name}} {{contact.surname}} <br>
+                    <div class="company-info">
+                        {{contact.companyName}}
+                    </div>
+                </div>
+            </div>
+        </a>
+    </div>
+</nav>
