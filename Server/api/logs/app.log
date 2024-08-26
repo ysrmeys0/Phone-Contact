@@ -1,0 +1,43 @@
+2024-08-25 15:56:44.7975 Info Loading assembly name: NLog.Web.AspNetCore
+2024-08-25 15:56:44.8064 Info NLog.Web.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.12.1137. Product version: 5.3.12+d71ff0bf66f938309ba6f4b88c7e43ee3c672bf9. GlobalAssemblyCache: False
+2024-08-25 15:56:44.8164 Info Registered target NLog.Targets.FileTarget(Name=fileTarget)
+2024-08-25 15:56:44.8164 Info Registered target NLog.Targets.ConsoleTarget(Name=consoleTarget)
+2024-08-25 15:56:44.8183 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.3.2683. Product version: 5.3.3+341c753ad4dce4dd476dcf0bc3ff2cfd9db76493. GlobalAssemblyCache: False
+2024-08-25 15:56:44.8664 Info Validating config: TargetNames=fileTarget, consoleTarget, ConfigItems=21, FilePath=/Users/ysrmeys/Desktop/PhoneContacts/Server/api/bin/Debug/net8.0/nlog.config
+2024-08-25 15:56:44.8702 Info Configuration initialized.
+2024-08-25 15:58:12.9507 Info AppDomain Shutting down. LogFactory closing...
+2024-08-25 15:58:12.9562 Info LogFactory has been closed.
+2024-08-25 16:07:59.2147 Info Registered target NLog.Targets.FileTarget(Name=fileTarget)
+2024-08-25 16:07:59.2217 Info Registered target NLog.Targets.ConsoleTarget(Name=consoleTarget)
+2024-08-25 16:07:59.2260 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.3.2683. Product version: 5.3.3+341c753ad4dce4dd476dcf0bc3ff2cfd9db76493. GlobalAssemblyCache: False
+2024-08-25 16:07:59.2740 Info Validating config: TargetNames=fileTarget, consoleTarget, ConfigItems=21, FilePath=/Users/ysrmeys/Desktop/PhoneContacts/Server/api/bin/Debug/net8.0/nlog.config
+2024-08-25 16:07:59.2776 Info Configuration initialized.
+2024-08-25 16:12:17.8258 Info AppDomain Shutting down. LogFactory closing...
+2024-08-25 16:12:17.8309 Info LogFactory has been closed.
+2024-08-25 16:18:53.2224 Info Loading assembly name: NLog.Web.AspNetCore
+2024-08-25 16:18:53.2316 Info NLog.Web.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.12.1137. Product version: 5.3.12+d71ff0bf66f938309ba6f4b88c7e43ee3c672bf9. GlobalAssemblyCache: False
+2024-08-25 16:18:53.2410 Info Registered target NLog.Targets.FileTarget(Name=fileTarget)
+2024-08-25 16:18:53.2410 Info Registered target NLog.Targets.ConsoleTarget(Name=consoleTarget)
+2024-08-25 16:18:53.2430 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.3.2683. Product version: 5.3.3+341c753ad4dce4dd476dcf0bc3ff2cfd9db76493. GlobalAssemblyCache: False
+2024-08-25 16:18:53.2892 Info Validating config: TargetNames=fileTarget, consoleTarget, ConfigItems=21, FilePath=/Users/ysrmeys/Desktop/PhoneContacts/Server/api/bin/Debug/net8.0/nlog.config
+2024-08-25 16:18:53.2926 Info Configuration initialized.
+2024-08-25 16:19:30.3821 Info AppDomain Shutting down. LogFactory closing...
+2024-08-25 16:19:30.3872 Info LogFactory has been closed.
+2024-08-25 16:48:16.5329 Info Loading assembly name: NLog.Web.AspNetCore
+2024-08-25 16:48:16.5419 Info NLog.Web.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.12.1137. Product version: 5.3.12+d71ff0bf66f938309ba6f4b88c7e43ee3c672bf9. GlobalAssemblyCache: False
+2024-08-25 16:48:16.5520 Info Registered target NLog.Targets.FileTarget(Name=fileTarget)
+2024-08-25 16:48:16.5520 Info Registered target NLog.Targets.ConsoleTarget(Name=consoleTarget)
+2024-08-25 16:48:16.5542 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.3.2683. Product version: 5.3.3+341c753ad4dce4dd476dcf0bc3ff2cfd9db76493. GlobalAssemblyCache: False
+2024-08-25 16:48:16.5999 Info Validating config: TargetNames=fileTarget, consoleTarget, ConfigItems=21, FilePath=/Users/ysrmeys/Desktop/PhoneContacts/Server/api/bin/Debug/net8.0/nlog.config
+2024-08-25 16:48:16.6033 Info Configuration initialized.
+2024-08-25 16:49:18.9726 Info AppDomain Shutting down. LogFactory closing...
+2024-08-25 16:49:18.9781 Info LogFactory has been closed.
+2024-08-26 14:26:45.7483 Info Loading assembly name: NLog.Web.AspNetCore
+2024-08-26 14:26:45.7577 Info NLog.Web.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.12.1137. Product version: 5.3.12+d71ff0bf66f938309ba6f4b88c7e43ee3c672bf9. GlobalAssemblyCache: False
+2024-08-26 14:26:45.7681 Info Registered target NLog.Targets.FileTarget(Name=fileTarget)
+2024-08-26 14:26:45.7685 Info Registered target NLog.Targets.ConsoleTarget(Name=consoleTarget)
+2024-08-26 14:26:45.7703 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.3.2683. Product version: 5.3.3+341c753ad4dce4dd476dcf0bc3ff2cfd9db76493. GlobalAssemblyCache: False
+2024-08-26 14:26:45.8069 Info Validating config: TargetNames=fileTarget, consoleTarget, ConfigItems=21, FilePath=/Users/ysrmeys/Desktop/PhoneContacts/Server/api/bin/Debug/net8.0/nlog.config
+2024-08-26 14:26:45.8106 Info Configuration initialized.
+2024-08-26 14:51:21.4538 Info AppDomain Shutting down. LogFactory closing...
+2024-08-26 14:51:21.4593 Info LogFactory has been closed.
